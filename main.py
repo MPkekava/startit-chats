@@ -1,4 +1,4 @@
-ffrom flask import Flask, render_template
+ffrom flask import Flask, render_templates
 app = Flask('app')
 @app.route('/')
 def index_page():
